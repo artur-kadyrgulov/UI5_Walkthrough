@@ -1,11 +1,12 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
- ], (Controller) => {
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
+ ], (Controller, MessageToast) => {
     "use strict";
  
     return Controller.extend("kadyrgulov.walkthrough.controller.App", {
         onShowHello() {
-            alert("Hello World");
+            MessageToast.show("Hello World");
         }
     });
 
