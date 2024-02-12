@@ -60,3 +60,8 @@ Step 9: Component Configuration.
 Step 10: Descriptor for Applications.
     - The content of the manifest.json file is a configuration object in JSON format that contains all global application settings and parameters. 
     - We can delete our index.js, because the descriptor now takes care of everything.
+
+Step 11: Pages and Panels.
+    - In order to make the fullscreen height of the view work properly, we add the displayBlock attribute with the value true to the view.
+    - It's about properties of pages and panels
+        [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.m.Page%23controlProperties)
