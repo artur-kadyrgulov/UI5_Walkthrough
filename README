@@ -46,3 +46,11 @@ Step 7: JSON Model.
     - The curly brackets {…} indicate that data is taken from the value of the recipient's object name property. This is called "data binding".
     - It's about 'Labels, headings, and descriptions help you describe the contents and visual elements of an application'.
         [text](https://sapui5.hana.ondemand.com/sdk/#/topic/33fae3482358438e93daea5232527093)
+
+Step 8: Translatable Texts.
+    - It's about 'ResourceBundle'
+        [text](https://sapui5.hana.ondemand.com/sdk/#/api/module:sap/base/i18n/ResourceBundle%23methods)
+    - It's about 'ResourseModel'
+        [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.ui.model.resource.ResourceModel%23overview)
+    - In this tutorial we will only have one properties file. However, in real-world projects, you would have a separate file for each supported language with a suffix for the locale, for example i18n_de.properties for German, i18n_en.properties for English, and so on.
+    - 
