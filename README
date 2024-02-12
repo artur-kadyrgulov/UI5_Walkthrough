@@ -1,0 +1,7 @@
+Application created based on the tutorial 'Walkthrough Tutorial' UI5 
+
+Step 0: Preparation.
+    - Create app root folder. In my case it is 'UI5_WALKRTHROUGH'.
+    - Go to the created folder.
+    - Open terminal and execute 'npm install --global @ui5/cli'.
+
