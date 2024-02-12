@@ -72,3 +72,7 @@ Step 12: Shell Control as Container.
     - There are further options to customize the shell, like setting a custom background image or color and setting a custom logo.
     - It's about 'Shell'
         [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.m.Shell%23controlProperties)
+
+Step 13: Margins and Paddings.
+    - It's about predefined css margin classes
+        [text](https://sapui5.hana.ondemand.com/sdk/#/topic/777168ffe8324873973151dae2356d1c)
