@@ -5,3 +5,11 @@ Step 0: Preparation.
     - Go to the created folder.
     - Open terminal and execute 'npm install --global @ui5/cli'.
 
+Step 1. Hello World.
+    - Created index.html
+    - Created manifext.json
+        The manifest.json file defines static information about the application, such as the name of the application or the location of various files.
+        [text](https://ui5.sap.com/sdk/#/topic/be0cf40f61184b358b5faedaec98b2da.html#loiobe0cf40f61184b358b5faedaec98b2da/section_sap_app)
+    - Execute 'npm i -D @ui5/cli' to install UI Tooling.
+    - Execute 'ui5 init'.
+    - Execute 'npm start'.
