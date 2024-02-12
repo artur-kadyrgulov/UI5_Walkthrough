@@ -5,7 +5,7 @@ Step 0: Preparation.
     - Go to the created folder.
     - Open terminal and execute 'npm install --global @ui5/cli'.
 
-Step 1. Hello World.
+Step 1: Hello World.
     - Created index.html
     - Created manifext.json
         The manifest.json file defines static information about the application, such as the name of the application or the location of various files.
@@ -13,3 +13,9 @@ Step 1. Hello World.
     - Execute 'npm i -D @ui5/cli' to install UI Tooling.
     - Execute 'ui5 init'.
     - Execute 'npm start'.
+
+Step 2: Bootstrap.
+    - Open a terminal from the app root folder. 
+    - Execute 'ui5 use OpenUI5'.
+    - Execute 'ui5 add sap.ui.core sap.m themelib_sap_horizon'.
+    - We tell SAPUI5 taht resources in the kadyrgulov.walkthrough are located in the same folder as index.html
