@@ -10,12 +10,8 @@ sap.ui.define([
         // The metadata section defines a reference to the root view
         // the component now manages the display of the app view
         metadata : {
-            "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-            "rootView": {
-                "viewName": "kadyrgulov.walkthrough.view.App",
-                "type": "XML",
-                "id": "app"
-            }
+            interfaces: ["sap.ui.core.IAsyncContentCreation"],
+            manifest: "json"
         },
 
 

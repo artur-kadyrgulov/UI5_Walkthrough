@@ -56,4 +56,7 @@ Step 8: Translatable Texts.
 
 Step 9: Component Configuration.
     - Components are independent and reusable parts used in SAPUI5 applications.
-    
+
+Step 10: Descriptor for Applications.
+    - The content of the manifest.json file is a configuration object in JSON format that contains all global application settings and parameters. 
+    - We can delete our index.js, because the descriptor now takes care of everything.
