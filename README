@@ -19,3 +19,6 @@ Step 2: Bootstrap.
     - Execute 'ui5 use OpenUI5'.
     - Execute 'ui5 add sap.ui.core sap.m themelib_sap_horizon'.
     - We tell SAPUI5 taht resources in the kadyrgulov.walkthrough are located in the same folder as index.html
+
+Step 3: Controls.
+    [text](https://sapui5.hana.ondemand.com/#/entity/sap.m.Text)
