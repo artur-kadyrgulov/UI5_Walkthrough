@@ -28,3 +28,8 @@ Step 4: XML Views.
         [text](https://sapui5.hana.ondemand.com/sdk/#/topic/91f292806f4d1014b6dd926db0e91070)
     - It's about sap.ui.core.mvc.View
         [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.ui.core.mvc.View%23overview)
+
+Step 5. Controllers
+    - It's about Controllers
+        [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.ui.core.mvc.Controller%23methods/sap.ui.core.mvc.Controller.extend)
+    - Be careful when specifying the name of the view. Controllers carry the same name as the related view (if there is a 1:1 relationship)
