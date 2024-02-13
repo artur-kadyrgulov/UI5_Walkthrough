@@ -99,3 +99,8 @@ Step 18: Icons.
 Step 19: Aggregation Binding.
     - Samples of List
         [text](https://sapui5.hana.ondemand.com/sdk/#/entity/sap.m.List)
+
+Step 20: Data Types
+Step 21: Expression Binding
+    - It's about ObjectListItem
+        [text](https://sapui5.hana.ondemand.com/sdk/#/api/sap.m.ObjectListItem%23controlProperties)

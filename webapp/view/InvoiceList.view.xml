@@ -1,6 +1,7 @@
 <mvc:View
     xmlns="sap.m"
-    xmlns:mvc="sap.ui.core.mvc">
+    xmlns:mvc="sap.ui.core.mvc"
+    controllerName="kadyrgulov.walkthrough.controller.InvoiceList">
     <List
         headerText="{i18n>invoiceListTitle}"
         class="sapUiResponsiveMargin"
@@ -8,7 +9,42 @@
         items="{invoice>/Invoices}">
         <items>
             <ObjectListItem
-                title="{invoice>Quantity} x {invoice>ProductName}"/>
+                title="{invoice>Quantity} x {invoice>ProductName}"
+                number="{
+                    parts: [
+                        'invoice>ExtendedPrice',
+                        'view>/currency'
+                    ],
+                    type: 'sap.ui.mode.type.Currency',
+                    formatOptions: {
+                        showMeasure: false
+                    }
+                }"
+                numberUnit="{view>/currency}"
+                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
+
+                <firstStatus>
+                    <ObjectStatus
+                        class="sapUiSmallMarginBottom"
+                        text="First Status"
+                        icon="sap-icon://sys-enter-2"
+                        state="Success" />
+                </firstStatus>
+
+                <secondStatus>
+                    <ObjectStatus
+                        class="sapUiSmallMarginBottom"
+                        text="Second Status"
+                        icon="sap-icon://sys-enter-2"
+                        state="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }" />
+                </secondStatus>
+
+                <ObjectAttribute
+						text="First Attribute"/>
+                <ObjectAttribute
+						text="{= ${invoice>ExtendedPrice} > 50 ? 'True' : 'False' }"/>
+
+            </ObjectListItem>
         </items>
     </List>
 </mvc:View>
