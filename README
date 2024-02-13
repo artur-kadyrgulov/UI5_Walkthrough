@@ -83,4 +83,7 @@ Step 14: Custom CSS and Theme Colors.
 
 Step 15: Nested Views.
     - Move the panel content to a separate view.
-    
+
+Step 16: Dialogs and Fragments.
+    - Fragments can be reused.
+    - Fragments do not have any controller.

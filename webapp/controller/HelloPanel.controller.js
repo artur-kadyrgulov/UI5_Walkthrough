@@ -12,6 +12,16 @@ sap.ui.define([
             const sMsg = oBundle.getText("helloMsg", [sRecipient]);
 
             MessageToast.show(sMsg);
+        },
+
+        onOpenDialog() {
+            // create dialog lazily
+            // if pDialog eq null or undefined then pDialog will eq expression after ??=
+            this.pDialog ??= this.loadFragment({
+                name: "kadyrgulov.walkthrough.view.HelloDialog"
+            });
+
+            this.pDialog.then((oDialog) => oDialog.open());
         }
     })
 })
