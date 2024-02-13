@@ -80,3 +80,7 @@ Step 13: Margins and Paddings.
 Step 14: Custom CSS and Theme Colors.
     - It's about theming
         [text](https://sapui5.hana.ondemand.com/sdk/#/entity/sap.ui.core.theming)
+
+Step 15: Nested Views.
+    - Move the panel content to a separate view.
+    
