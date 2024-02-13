@@ -91,3 +91,7 @@ Step 16: Dialogs and Fragments.
 Step 17: Fragment Callbacks.
     - Samples of dialog
         [text](https://sapui5.hana.ondemand.com/#/entity/sap.m.Dialog)
+    
+Step 18: Icons.
+    - All icons
+        [text](https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons/?tab=grid&icon=accept)
