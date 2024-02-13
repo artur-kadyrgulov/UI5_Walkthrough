@@ -87,3 +87,7 @@ Step 15: Nested Views.
 Step 16: Dialogs and Fragments.
     - Fragments can be reused.
     - Fragments do not have any controller.
+
+Step 17: Fragment Callbacks.
+    - Samples of dialog
+        [text](https://sapui5.hana.ondemand.com/#/entity/sap.m.Dialog)

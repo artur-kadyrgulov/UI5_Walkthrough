@@ -21,7 +21,13 @@ sap.ui.define([
                 name: "kadyrgulov.walkthrough.view.HelloDialog"
             });
 
-            this.pDialog.then((oDialog) => oDialog.open());
+            this.pDialog.then((oDialog) =>  oDialog.open());
+        },
+
+        onCloseDialog() {
+            // note: We don't need to chain to the pDialog promise, since this event handler
+            // is only called from within the loaded dialog itself.
+            this.byId("helloDialogId").close();
         }
     })
 })
