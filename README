@@ -76,3 +76,7 @@ Step 12: Shell Control as Container.
 Step 13: Margins and Paddings.
     - It's about predefined css margin classes
         [text](https://sapui5.hana.ondemand.com/sdk/#/topic/777168ffe8324873973151dae2356d1c)
+    
+Step 14: Custom CSS and Theme Colors.
+    - It's about theming
+        [text](https://sapui5.hana.ondemand.com/sdk/#/entity/sap.ui.core.theming)
